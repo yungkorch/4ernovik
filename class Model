@@ -1,0 +1,28 @@
+public class Model {
+
+	private String utc_offset;
+	private String timezone;
+	private String datetime;
+
+	public String getUtc_offcet(){
+		return utc_offset;
+	}
+	public void setUtc_offcet(){
+		this.utc_offset = utc_offset;
+	}
+	public String gettimezone(){
+		return timezone;
+	}
+	public void settimezone(){
+		this.timezone = timezone;
+	}
+	public String getdatetime(){
+		return datetime;
+	}
+	public void setUtc_offcet(){
+		this.datetime = datetime;
+	}
+
+
+
+}
